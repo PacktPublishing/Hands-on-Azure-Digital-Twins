@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "1d/O0Z96SAEsFmyolc5O86nYsHOzPgQls201eifMx3bzbhpe7LBgytBYHO6S3qNFXWYA97r0tD4NS2z2QI53vQ==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\SmartBuildingConsoleApp\\SmartBuildingConsoleApp\\SmartBuildingConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\azure.digitaltwins.core\\1.2.1\\azure.digitaltwins.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\microsoft.identity.client\\4.22.0\\microsoft.identity.client.4.22.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5\\microsoft.identity.client.extensions.msal.2.16.5.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\dtbadmin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

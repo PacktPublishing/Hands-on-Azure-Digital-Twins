@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:com:smartbuilding:AirconditioningController;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "AirconditioningController",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "temperatureset",
+      "schema": "float",
+      "writable": true
+    }
+  ]
+}

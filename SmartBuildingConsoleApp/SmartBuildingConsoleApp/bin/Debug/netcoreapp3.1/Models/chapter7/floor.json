@@ -1,0 +1,25 @@
+{
+  "@id": "dtmi:com:smartbuilding:Floor;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Floor",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "floornumber",
+      "schema": "integer",
+      "writable": false
+    },
+    {
+      "@type": "Property",
+      "name": "lightson",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "target": "dtmi:com:smartbuilding:Room;1"
+    }
+  ]
+}

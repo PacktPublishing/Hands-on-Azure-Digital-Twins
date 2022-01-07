@@ -1,0 +1,36 @@
+{
+  "@id": "dtmi:com:smartbuilding:Building;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Building",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "rooms",
+      "writable": true,
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "roomname",
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "roomtemperature",
+          "schema": "float"
+        }
+      }
+    },
+    {
+      "@type": "Relationship",
+      "name": "has",
+      "target": "dtmi:com:smartbuilding:Floor;1",
+      "properties": [
+        {
+          "@type": "Property",
+          "name": "level",
+          "schema": "integer"
+        }
+      ]
+    }
+  ]
+}

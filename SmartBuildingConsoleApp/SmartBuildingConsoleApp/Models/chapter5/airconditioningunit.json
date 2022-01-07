@@ -1,0 +1,20 @@
+{
+  "@id": "dtmi:com:smartbuilding:AirconditioningUnit;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "AirconditioningUnit",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "poweron",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "level",
+      "schema": "double",
+      "writable": true
+    }
+  ]
+}

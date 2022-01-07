@@ -1,0 +1,26 @@
+{
+  "@id": "dtmi:com:smartbuilding:Meetingroom;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "extends": [ "dtmi:com:smartbuilding:Room;1" ],
+  "displayName": "Meetingroom",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "occupied",
+      "schema": "boolean",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "temperaturevalue",
+      "schema": "double",
+      "writable":  true
+    },
+    {
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "double"
+    }
+  ]
+}

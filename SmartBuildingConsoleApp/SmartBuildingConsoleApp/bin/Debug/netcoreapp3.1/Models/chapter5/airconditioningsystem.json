@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:com:smartbuilding:AirconditioningSystem;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "AirconditioningSystem",
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "airconditioningunity",
+      "schema": "dtmi:com:smartbuilding:AirconditioningUnit;1"
+    },
+    {
+      "@type": "Component",
+      "name": "airconditioningcontroller",
+      "schema": "dtmi:com:smartbuilding:AirconditioningController;1"
+    }
+  ]
+}

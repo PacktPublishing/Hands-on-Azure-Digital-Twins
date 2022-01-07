@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartBuildingConsoleApp", "SmartBuildingConsoleApp\SmartBuildingConsoleApp.csproj", "{843D65B0-E5D0-4574-BCB6-1AD8E3D12717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843D65B0-E5D0-4574-BCB6-1AD8E3D12717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843D65B0-E5D0-4574-BCB6-1AD8E3D12717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843D65B0-E5D0-4574-BCB6-1AD8E3D12717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843D65B0-E5D0-4574-BCB6-1AD8E3D12717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6710AC94-89D4-452C-80FF-B5F76486F6F2}
+	EndGlobalSection
+EndGlobal

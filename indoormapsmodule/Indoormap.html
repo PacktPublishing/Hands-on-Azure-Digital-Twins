@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Indoor Maps App</title>
+
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/indoor/0.1/atlas-indoor.min.css" type="text/css" />
+
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+    <script src="https://atlas.microsoft.com/sdk/javascript/indoor/0.1/atlas-indoor.min.js"></script>
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map-id {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map-id"></div>
+    <script>
+        const subscriptionKey = "5u4nik9mH69uvmR6AYuHJq-l2SmNbwfSP1mZGxLfAkQ";
+        const tilesetId = "b9434ccd-a66e-9052-4b8c-948dc4579a33";
+        const statesetId = "aa2f3e7a-378d-8887-3a14-8d04aa061aad";
+
+      const map = new atlas.Map("map-id", {
+        //use your facility's location
+        center: [-122.13315, 47.63637],
+        //or, you can use bounds: [# west, # south, # east, # north] and replace # with your Map bounds
+        style: "blank",
+        view: 'Auto',
+        authOptions: {
+            authType: 'subscriptionKey',
+            subscriptionKey: subscriptionKey
+        },
+        zoom: 19,
+      });
+
+      const levelControl = new atlas.control.LevelControl({
+        position: "top-right",
+      });
+
+      const indoorManager = new atlas.indoor.IndoorManager(map, {
+        levelControl: levelControl, //level picker
+        tilesetId: tilesetId,
+        statesetId: statesetId // Optional
+      });
+
+      if (statesetId.length > 0) {
+        indoorManager.setDynamicStyling(true);
+        }
+
+      indoorManager.setOptions({ geography: 'eu' });
+
+      map.events.add("levelchanged", indoorManager, (eventData) => {
+        //put code that runs after a level has been changed
+        console.log("The level has changed:", eventData);
+      });
+
+      map.events.add("facilitychanged", indoorManager, (eventData) => {
+        //put code that runs after a facility has been changed
+        console.log("The facility has changed:", eventData);
+      });
+
+    </script>
+</body>
+</html>

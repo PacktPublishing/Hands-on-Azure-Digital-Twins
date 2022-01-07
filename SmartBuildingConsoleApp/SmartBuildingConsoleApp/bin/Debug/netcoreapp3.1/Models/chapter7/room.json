@@ -1,0 +1,6 @@
+{
+  "@id": "dtmi:com:smartbuilding:Room;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Room"
+}
