@@ -1,2 +1,2 @@
-# Azure-Digital-Twins
-Azure Digital Twins, published by Packt
+# Hands-on Azure Digital Twins
+Hands-on Azure Digital Twins, published by Packt
