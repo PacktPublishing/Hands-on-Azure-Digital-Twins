@@ -1,8 +1,8 @@
-# Early Access
+# Hands-on Azure Digital Twins
 
 <a href="https://www.packtpub.com/iot-hardware/hands-on-azure-digital-twins?utm_source=github&utm_medium=repository&utm_campaign=9781801071383"><img src="https://static.packt-cdn.com/products/9781801071383/cover/smaller" alt="Early Access" height="256px" align="right"></a>
 
-This is the code repository for [Early Access](https://www.packtpub.com/iot-hardware/hands-on-azure-digital-twins?utm_source=github&utm_medium=repository&utm_campaign=9781801071383), published by Packt.
+This is the code repository for [Hands-on Azure Digital Twins](https://www.packtpub.com/iot-hardware/hands-on-azure-digital-twins?utm_source=github&utm_medium=repository&utm_campaign=9781801071383), published by Packt.
 
 **A practical guide to building distributed IoT solutions**
 
